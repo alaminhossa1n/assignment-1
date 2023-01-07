@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+}
+
+.header-part {
+    background: url(/images/banner/banner1.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    margin-right: 230px;
+
+}
+
+.banner div {
+    text-align: right;
+    max-width: 525px;
+}
+
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+}
+
+.banner-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+
+/* main part  */
+
+/* failures part  */
+
+.failures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.failures img {
+    margin-left: 100px;
+}
+
+.failures-text {
+    max-width: 416;
+    max-height: 400;
+    margin-right: 322px;
+}
+
+.failures-text h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.failures-text #failures-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 25px;
+
+
+}
+
+.failures-text h6 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* my plans  */
+
+.my-plan-2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.habbit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* gradient- Background */
+
+.gradiant-bg {
+    position: relative;
+}
+
+/* footer section  */
+.fotter {
+    /* display: flex; */
+    width: 1600px;
+    display: flex;
+    background: #151414;
+    padding: 130px 230px;
+    gap: 200px;
+
+}
+
+.fotter .future {
+    max-width: 485px;
+}
+
+.social{
+    display: flex;
+}
