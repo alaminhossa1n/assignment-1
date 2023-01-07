@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: Work Sans;
 }
 
 .header-part {
@@ -8,6 +9,30 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.btn-contact {
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: 0;
 }
 
 .banner {
@@ -30,12 +55,16 @@
     font-size: 65px;
     line-height: 76px;
     color: #151414;
+    margin-bottom: 24px;
 }
 
 .banner-text p {
+    font-family: 'Work Sans';
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    margin-bottom: 24px;
+    text-align: right;
     color: #444343;
 }
 
@@ -58,7 +87,10 @@
 .failures-text {
     max-width: 416;
     max-height: 400;
-    margin-right: 322px;
+    margin-right: 250px;
+    font-family: 'Work Sans';
+    line-height: 47px;
+    color: #151414;
 }
 
 .failures-text h1 {
@@ -92,24 +124,120 @@
     color: #444343;
 }
 
+.failures-text i{
+    color: lightgreen;
+}
+
 /* my plans  */
+
+.plan-1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-block: 50px;
+}
+
+.plan-1 h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 30px;
+}
+
+.plan-1 h6{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.plan-1 h6{
+    margin-bottom: 5px;
+}
 
 .my-plan-2 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 50px 0;
+}
+
+.my-plan-2 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 55px;
+}
+
+
+
+.habbit h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+.habbit p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
 }
 
 .habbit {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 86px;
 }
 
 /* gradient- Background */
 
+.gradiant {
+
+    background-image: url(/images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1140px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
 .gradiant-bg {
-    position: relative;
+
+    background-image: url(/images/gradient1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding-block: 80px;
+}
+
+
+.gradaint-text {
+    align-items: center;
+    padding-left: 110px;
+}
+
+.gradaint-text p{
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #FFFFFF;
+}
+
+.gradaint-text .btn-primary{
+    margin-top: 10px;
 }
 
 /* footer section  */
@@ -120,6 +248,7 @@
     background: #151414;
     padding: 130px 230px;
     gap: 200px;
+    margin-top: 100px;
 
 }
 
@@ -127,6 +256,50 @@
     max-width: 485px;
 }
 
-.social{
+.future h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.future p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.social {
     display: flex;
+
+}
+
+form h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #ffffff;
+    margin-bottom: 30PX;
+}
+
+.form input {
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 16PX;
+    background: #151414;
+}
+
+.form ::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* Dark 07 */
+
+    color: #F3F3F3;
+    padding-left: 21px;
 }
